@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==== Model & file besar (di-host di Hugging Face, JANGAN di-commit) ====
+models/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+donut_export/
+donut_export.zip
+*.zip
+
+# Virtual Environment
+env/
+venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Streamlit Cache
+.streamlit/cache/
+
+# Python cache
+__pycache__/
+*.pyc
+*.zip

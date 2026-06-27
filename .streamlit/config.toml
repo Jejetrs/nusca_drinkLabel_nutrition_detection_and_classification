@@ -1,0 +1,18 @@
+# Tema NutriScan AI — selaras dengan palet hijau pada UI.
+# Catatan: sebagian besar gaya visual diatur lewat CSS kustom (ui/styles.py);
+# berkas ini menetapkan dasar tema bawaan Streamlit.
+
+[theme]
+base = "light"
+primaryColor = "#22C55E"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F6F8FA"
+textColor = "#0F172A"
+font = "sans serif"
+
+[server]
+# Foto label gizi resolusi tinggi bisa cukup besar.
+maxUploadSize = 30
+
+[browser]
+gatherUsageStats = false
